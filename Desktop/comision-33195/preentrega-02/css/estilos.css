@@ -1,0 +1,308 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+/* == Estilos INDEX ==*/
+
+/*estilos de header*/
+
+header{
+    background-color: #950107;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    color: rgb(255, 255, 255);
+}
+
+.logo{
+    image-rendering: auto;
+    object-fit: initial;
+    width: 18%;
+    height: 18%;  
+}
+
+header nav ul{
+    list-style: none;
+    display: flex;
+    gap: 60px;
+    color: white;
+    
+}
+
+header nav ul li{
+    background-color: #cc373c;
+    padding: 10px;
+    border-radius: 15px;
+    color: white;
+}
+
+.banner{
+    image-rendering: auto;
+    object-fit: initial;
+    width: 100%;
+    height: 800%;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.titulo{
+    position: absolute;
+    top: 10%;
+    left: 70%;
+    color: whitesmoke;
+    font-size: 25px;
+}
+
+.parrafo-uno{
+    padding: 10px;
+    position: absolute;
+    top: 20%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(245, 245, 220, 0.394);
+}
+
+
+
+/*estilos del Main*/
+
+main h2 p {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 20px;
+}
+
+.titulo-inicio{
+    margin-top: 30px;
+
+}
+
+.parrafo-inicio{
+    padding: 15px 40px 80px 100px;
+}
+
+.imagen-inicio{
+    margin-top: 60px;
+    image-rendering: auto;
+    object-fit: initial;
+    width: 40%;
+    height: 40%;
+    border-radius: 15px;
+
+
+}
+.titulo-galeria{
+    margin: 30px;
+
+}
+
+.galeria{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.galeria-individual{
+    margin: 15px;
+    padding: 15px;
+    width: 25%;
+    text-align: center;
+    border-radius: 20px;
+    border-color: rgba(103, 103, 103, 0.523);
+    background-color: rgba(103, 103, 103, 0.523);
+    box-shadow: 15px;
+}
+
+.imagen-valoracion{
+    margin: 15px;
+    padding: 15px;
+}
+
+.titulo-valoracion{
+    margin-bottom: 10 px;
+}
+
+.texto-valoracion{
+    margin: 10px;
+}
+
+.valoracion{
+    margin: 15px;
+}
+
+
+/* == Estilos Recetas ==*/
+
+.recetas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    
+}
+
+.recetas-individuales{
+    margin: 15px;
+    padding: 15px;
+    width: 25%;
+    text-align: center;
+    border-radius: 20px;
+    border-color: rgba(249, 114, 93, 0.523);
+    background-color: rgba(249, 114, 93, 0.523);
+    box-shadow: 15px;
+}
+
+.boton-receta{
+    margin: 15px;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: #950107;
+    border-color: none;
+    color: antiquewhite;
+    align-items: center;
+}
+/* == Estilos Receta individual ==*/
+
+.imagen-receta-unica{
+    display: block;
+    margin: auto;
+}
+
+.receta-unica{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.titulo-receta-uno{
+    margin: 15px;
+    color: #950107;
+}
+
+.parrafo-receta-uno{
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.lista-ingredientes{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: left;
+
+}
+
+.pasos-receta{
+    margin: 20px;
+    padding-left: 30%;
+    padding-right: 30%;
+    display: flex;
+    justify-content: center;
+    text-align: left;
+}
+
+.boton-hacer-receta{
+    margin: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: #950107;
+    border-color: none;
+    color: antiquewhite;
+    display: flex;
+    align-items: center;
+}
+
+
+/* == Estilos Nosotros ==*/
+
+.pregunta{
+    margin: 30px;
+    display: flex;
+}
+
+.preguntas{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 1fr;
+}
+
+.imagen-pregunta{
+    border-radius: 20px;
+}
+
+.pregunta-uno{
+    margin: 20px;
+    padding: 10px;
+
+}
+
+.pregunta-dos{
+    margin: 20px;
+    padding: 10px;
+
+}
+
+.pregunta-tres{
+    margin: 20px;
+    padding: 10px;
+
+}
+
+
+
+/* == Estilos Contacto ==*/
+/*Estilos Contacto*/
+
+.contenedor-contacto{
+    background-image: url(../img/fondo-contacto.png);
+    background-size: 120%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+.titulo-contacto{
+    margin: 30px;
+    text-align: center;
+    color: #950107;
+    font-size: 50px;
+
+}
+
+.contacto{
+    margin: auto;
+    text-align: left;
+    width: 60%;
+    background-color: whitesmoke;
+}
+
+.campo{
+    margin: 15px;
+    width: 30%;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 18px;
+    outline: none;
+}
+
+.etiqueta-campo{
+    margin: 10px;
+}
+
+.boton-contacto{
+    margin: 10px;
+}
+
+/*Estilos del Footer*/
+
+footer{
+    margin-top: 300px;
+    padding: 50px;
+    color: white;
+    background-color: #cc373c;
+}

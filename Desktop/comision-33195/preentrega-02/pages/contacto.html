@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Link de CSS-->
+    <link rel="stylesheet" href="../css/estilos.css">
+
+    <title>Contacto</title>
+</head>
+
+<body>
+
+<div class="contenedor-contacto">
+        <!-- encabezado -->
+        <header id="header">
+            <img class="logo" src="../img/recedo-1.png" alt="Logo de la página Web">
+            <nav>
+                    <ul>
+                        <a href="../index.html">
+                        <li class="menu-hijo"> Inicio </li>
+                    </a>
+                    <a href="../pages/recetario.html">
+                        <li class="menu-hijo"> Recetario </li>
+                    </a>
+                    <a href="../pages/quienes-somos.html">
+                        <li class="menu-hijo"> Quiénes Somos </li>
+                    </a>
+                    <a href="../pages/contacto.html">
+                        <li class="menu-hijo"> Contacto </li>
+                </a>
+                    </ul>
+            </nav>    
+        </header>
+
+        <main>
+            <h2 class="titulo-contacto">Formulario de contacto</h2>
+
+            <!--Formulario-->
+            <form>
+                <fieldset class="contacto">
+                    <legend>Si tienes alguna duda sobre nuestras entregas, plazos u otra duda llena el formulario y te responderemos en breve</legend>
+                    <div>
+                        <label class="etiqueta-campo" for="nombre"> 
+                            Nombre
+                        </label>
+                        <input class="campo" type="text" name="nombre" placeholder="Juan Cañas">
+                    </div>
+                    <div>
+                        <label class="etiqueta-campo" for="email"> 
+                            Email
+                        </label>
+                        <input class="campo" type="email" name="email" placeholder="juan@email.com">
+                    </div>
+                    <div>
+                        <label class="etiqueta-campo for="ciudad"> 
+                            Ciudad
+                        </label>
+                        <input class="campo" type="text" name="ciudad" placeholder="Santiago">
+                    </div>
+                    <div>
+                        <label class="etiqueta-campo" for="Mensaje"> 
+                            Mensaje
+                        </label>
+                        <input class="campo" type="text" name="mensaje" placeholder="Escribe tu duda">
+                    </div>
+                    <div>
+                        <input class="boton-contacto" type="submit" value="Enviar duda">
+                        <input class="boton-contacto" type="reset" value="Borrar todo">
+                    </div>
+
+                </fieldset>
+            </form>
+
+        </main>
+
+        <footer>
+            <h4>Todos los Derechos Reservados ® </h4>
+
+            <a href="#header"> Volver Arriba</a>
+        </footer>
+</div>
+
+
+</body>
+</html>
