@@ -406,10 +406,10 @@ footer{
         display: grid;
         grid-template-columns: 0.8fr;
         grid-template-rows: 0.8fr;
-        align-items: center;
-        justify-content: space-between;
+        align-content: center;
         
     }
+   
     
     .galeria-individual{
         margin: 15px;
@@ -424,9 +424,8 @@ footer{
     }
 
     .imagen-valoracion{
-        width: 300px;
-        align-items: center;
-        justify-content: center;
+        width: 250px;
+
     }
 
 
