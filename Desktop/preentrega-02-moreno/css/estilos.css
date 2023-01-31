@@ -32,7 +32,10 @@ header nav ul{
     list-style: none;
     display: flex;
     gap: 60px;
-    color: white;
+    background: none;
+    color: whitesmoke;
+    border-color: none;
+
     
 }
 
@@ -42,7 +45,23 @@ header nav ul li{
     background-color: #cc373c;
     padding: 5px;
     border-radius: 15px;
-    color: white;
+    color: whitesmoke;
+    border-color: none;
+
+}
+
+.dropdown-menu{
+    background: none;
+    margin: 10px;
+    border-color: none;
+    color: azure;
+}
+
+.dropdown-item{
+    background-color: #ff7d81;
+    border-radius: 15px;
+    color: rgb(36, 36, 36);
+    border-color: none;
 }
 
 
