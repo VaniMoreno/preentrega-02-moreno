@@ -96,6 +96,8 @@ header nav ul li{
 
 /*estilos del Main*/
 
+
+
 main h2 p {
     display: inline-block;
     vertical-align: top;
@@ -182,8 +184,21 @@ main h2 p {
     display: flex;
     justify-content:center;
     flex-wrap: wrap;
-    
+    animation-name: entrada;
+    animation-duration: 5s;
+    animation-timing-function: ease-in;
 }
+
+@keyframes entrada {
+    
+    from{
+        bottom: 0%;
+    }
+    to{
+        top: 80%;
+    }
+}
+
 
 .descripcion-recetas{
     display: flex;
@@ -205,7 +220,24 @@ main h2 p {
     border-color: rgba(249, 114, 93, 0.523);
     background-color: rgba(249, 114, 93, 0.523);
     box-shadow: 15px;
+    animation-name: entrada;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
 }
+
+@keyframes entrada {
+    
+    from{
+        bottom: 0%;
+    }
+
+    to{
+        top: 80%;
+    }
+}
+
+
+
 
 
 
