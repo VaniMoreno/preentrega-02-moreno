@@ -11,10 +11,6 @@
 
 header{
     background-color: #950107;
-<<<<<<< HEAD
-    display: flex;
-=======
->>>>>>> rama-uno
     color: rgb(255, 255, 255);
 }
 
@@ -35,15 +31,11 @@ header nav ul{
     list-style: none;
     display: flex;
     gap: 60px;
-<<<<<<< HEAD
-    color: white;
-=======
     background: none;
     color: whitesmoke;
     border-color: none;
     text-decoration: none;
 
->>>>>>> rama-uno
     
 }
 
@@ -53,9 +45,6 @@ header nav ul li{
     background-color: #cc373c;
     padding: 5px;
     border-radius: 15px;
-<<<<<<< HEAD
-    color: white;
-=======
     color: whitesmoke;
     border-color: none;
     text-decoration: none;
@@ -76,7 +65,6 @@ header nav ul li{
     color: rgb(36, 36, 36);
     border-color: none;
     text-decoration: none;
->>>>>>> rama-uno
 }
 
 
@@ -111,11 +99,6 @@ header nav ul li{
 
 /*estilos del Main*/
 
-<<<<<<< HEAD
-=======
-
-
->>>>>>> rama-uno
 main h2 p {
     display: inline-block;
     vertical-align: top;
@@ -187,6 +170,94 @@ main h2 p {
     margin: 15px;
 }
 
+/* Inicio Pantallas Mobile*/
+
+@media screen and (min-width : 320px) and (max-width : 768px) {
+
+
+        body{
+            background-color: aqua;
+        }
+
+    
+        .imagen-inicio{
+            width: 300px;
+        }
+    
+    
+        .titulo-galeria{
+            margin: 30px;
+            text-align: center;
+        
+        }
+        
+        .galeria{
+            margin-left: 1.5rem;
+            margin-right: 1.5rem;
+            display: grid;
+            grid-template-columns: 0.8fr;
+            grid-template-rows: 0.8fr;
+            align-content: center;
+            
+        }
+       
+        
+        .galeria-individual{
+            margin: 15px;
+            padding: 15px;
+            width: 20rem;
+            text-align: center;
+            border-radius: 10px;
+            border-color: rgba(103, 103, 103, 0.523);
+            background-color: rgba(103, 103, 103, 0.523);
+            box-shadow: 15px;
+            align-items: center;
+        }
+    
+        .imagen-valoracion{
+            width: 250px;
+    
+        }
+    
+    
+    
+    }
+
+    /* Inicio Pantallas Tablet*/
+
+@media screen and (min-width : 768px) and (max-width : 1028px) {
+
+
+    .titulo-galeria{
+        margin: 30px;
+        text-align: center;
+    
+    }
+    
+    .galeria{
+        margin-left: 10rem;
+        margin-right: 10rem;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        align-items: center;
+        justify-content: space-between;
+        
+    }
+    
+    .galeria-individual{
+        margin: 15px;
+        padding: 15px;
+        width: 30rem;
+        text-align: center;
+        border-radius: 20px;
+        border-color: rgba(103, 103, 103, 0.523);
+        background-color: rgba(103, 103, 103, 0.523);
+        box-shadow: 15px;
+        align-items: center;
+    }
+
+}
 
 /* == Estilos Recetas ==*/
 
@@ -222,7 +293,7 @@ main h2 p {
 }
 
 
->>>>>>> rama-uno
+
 .descripcion-recetas{
     display: flex;
     justify-content: center;
@@ -243,8 +314,7 @@ main h2 p {
     border-color: rgba(249, 114, 93, 0.523);
     background-color: rgba(249, 114, 93, 0.523);
     box-shadow: 15px;
-<<<<<<< HEAD
-=======
+
     animation-name: entrada;
     animation-duration: 5s;
     animation-timing-function: ease-in-out;
@@ -259,12 +329,12 @@ main h2 p {
     to{
         top: 80%;
     }
->>>>>>> rama-uno
+
 }
 
 
 
-<<<<<<< HEAD
+
 .card{
     margin: 15px;
     padding: 15px;
@@ -275,7 +345,6 @@ main h2 p {
     box-shadow: 15px;
 }
 
-=======
 
 
 
@@ -359,7 +428,6 @@ main h2 p {
 
 
 
->>>>>>> rama-uno
 
 /* == Estilos Receta individual ==*/
 
@@ -505,92 +573,5 @@ footer{
 }
 
 
-/* Inicio Pantallas Tablet*/
-
-@media screen and (min-width : 768px) and (max-width : 1028px) {
 
 
-    .titulo-galeria{
-        margin: 30px;
-        text-align: center;
-    
-    }
-    
-    .galeria{
-        margin-left: 10rem;
-        margin-right: 10rem;
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr;
-        align-items: center;
-        justify-content: space-between;
-        
-    }
-    
-    .galeria-individual{
-        margin: 15px;
-        padding: 15px;
-        width: 30rem;
-        text-align: center;
-        border-radius: 20px;
-        border-color: rgba(103, 103, 103, 0.523);
-        background-color: rgba(103, 103, 103, 0.523);
-        box-shadow: 15px;
-        align-items: center;
-    }
-
-}
-
-/* Inicio Pantallas Mobile*/
-
-@media screen and (min-width : 320px) and (max-width : 768px) {
-
-<<<<<<< HEAD
-    body{
-        background-color: aqua;
-    }
-=======
->>>>>>> rama-uno
-
-    .imagen-inicio{
-        width: 300px;
-    }
-
-
-    .titulo-galeria{
-        margin: 30px;
-        text-align: center;
-    
-    }
-    
-    .galeria{
-        margin-left: 1.5rem;
-        margin-right: 1.5rem;
-        display: grid;
-        grid-template-columns: 0.8fr;
-        grid-template-rows: 0.8fr;
-        align-content: center;
-        
-    }
-   
-    
-    .galeria-individual{
-        margin: 15px;
-        padding: 15px;
-        width: 20rem;
-        text-align: center;
-        border-radius: 10px;
-        border-color: rgba(103, 103, 103, 0.523);
-        background-color: rgba(103, 103, 103, 0.523);
-        box-shadow: 15px;
-        align-items: center;
-    }
-
-    .imagen-valoracion{
-        width: 250px;
-
-    }
-
-
-
-}
