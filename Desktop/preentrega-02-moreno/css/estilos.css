@@ -11,7 +11,10 @@
 
 header{
     background-color: #950107;
+<<<<<<< HEAD
     display: flex;
+=======
+>>>>>>> rama-uno
     color: rgb(255, 255, 255);
 }
 
@@ -32,7 +35,15 @@ header nav ul{
     list-style: none;
     display: flex;
     gap: 60px;
+<<<<<<< HEAD
     color: white;
+=======
+    background: none;
+    color: whitesmoke;
+    border-color: none;
+    text-decoration: none;
+
+>>>>>>> rama-uno
     
 }
 
@@ -42,7 +53,30 @@ header nav ul li{
     background-color: #cc373c;
     padding: 5px;
     border-radius: 15px;
+<<<<<<< HEAD
     color: white;
+=======
+    color: whitesmoke;
+    border-color: none;
+    text-decoration: none;
+
+}
+
+.dropdown-menu{
+    background: none;
+    margin: 10px;
+    border-color: none;
+    color: azure;
+    text-decoration: none;
+}
+
+.dropdown-item{
+    background-color: #ff7d81;
+    border-radius: 15px;
+    color: rgb(36, 36, 36);
+    border-color: none;
+    text-decoration: none;
+>>>>>>> rama-uno
 }
 
 
@@ -77,6 +111,11 @@ header nav ul li{
 
 /*estilos del Main*/
 
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> rama-uno
 main h2 p {
     display: inline-block;
     vertical-align: top;
@@ -163,9 +202,27 @@ main h2 p {
     display: flex;
     justify-content:center;
     flex-wrap: wrap;
-    
+    animation-name: animation;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
 }
 
+@keyframes animation {
+    from {
+        position: relative;
+        bottom: -30px;
+        opacity: 0;
+    }
+
+    to {
+        position: relative;
+        bottom: 0;
+        opacity: 1;
+    }
+}
+
+
+>>>>>>> rama-uno
 .descripcion-recetas{
     display: flex;
     justify-content: center;
@@ -186,10 +243,28 @@ main h2 p {
     border-color: rgba(249, 114, 93, 0.523);
     background-color: rgba(249, 114, 93, 0.523);
     box-shadow: 15px;
+<<<<<<< HEAD
+=======
+    animation-name: entrada;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes entrada {
+    
+    from{
+        bottom: 0%;
+    }
+
+    to{
+        top: 80%;
+    }
+>>>>>>> rama-uno
 }
 
 
 
+<<<<<<< HEAD
 .card{
     margin: 15px;
     padding: 15px;
@@ -200,6 +275,91 @@ main h2 p {
     box-shadow: 15px;
 }
 
+=======
+
+
+
+/* Recetas Pantallas Tablet*/
+@media screen and (min-width : 768px) and (max-width : 1028px) {
+
+
+    .titulo-recetas{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 60px;
+    }
+
+    .recetas{
+        margin-top: 40px;
+        display: flex;
+        justify-content:center;
+        flex-wrap: wrap;
+    }
+    .card{
+        margin: 15px;
+        padding: 15px;
+        text-align: center;
+        border-radius: 20px;
+        border-color: rgba(249, 114, 93, 0.523);
+        background-color: rgba(249, 114, 93, 0.523);
+        box-shadow: 15px;
+    }
+
+    .descripcion-recetas{
+        display: flex;
+        justify-content: center;
+        margin-top: 15px;
+        padding-left: 90px;
+        padding-right: 90px;
+        text-align: center;
+    }
+    
+
+}
+
+/* Recetas Pantallas Mobile*/
+
+@media screen and (min-width : 320px) and (max-width : 768px) {
+
+    .titulo-recetas{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 30px;
+    }
+
+    .recetas{
+        margin-top: 20px;
+        display: flex;
+        justify-content:center;
+        flex-wrap: wrap;
+    }
+    .card{
+        margin: 15px;
+        padding: 20px;
+        text-align: center;
+        border-radius: 20px;
+        border-color: rgba(249, 114, 93, 0.523);
+        background-color: rgba(249, 114, 93, 0.523);
+        box-shadow: 15px;
+    }
+
+    .descripcion-recetas{
+        display: flex;
+        justify-content: center;
+        margin-top: 15px;
+        padding-left: 80px;
+        padding-right: 80px;
+        text-align: center;
+    }
+    
+
+}
+
+
+
+>>>>>>> rama-uno
 
 /* == Estilos Receta individual ==*/
 
@@ -385,9 +545,12 @@ footer{
 
 @media screen and (min-width : 320px) and (max-width : 768px) {
 
+<<<<<<< HEAD
     body{
         background-color: aqua;
     }
+=======
+>>>>>>> rama-uno
 
     .imagen-inicio{
         width: 300px;
