@@ -35,6 +35,7 @@ header nav ul{
     background: none;
     color: whitesmoke;
     border-color: none;
+    text-decoration: none;
 
     
 }
@@ -47,6 +48,7 @@ header nav ul li{
     border-radius: 15px;
     color: whitesmoke;
     border-color: none;
+    text-decoration: none;
 
 }
 
@@ -55,6 +57,7 @@ header nav ul li{
     margin: 10px;
     border-color: none;
     color: azure;
+    text-decoration: none;
 }
 
 .dropdown-item{
@@ -62,6 +65,7 @@ header nav ul li{
     border-radius: 15px;
     color: rgb(36, 36, 36);
     border-color: none;
+    text-decoration: none;
 }
 
 
@@ -184,18 +188,22 @@ main h2 p {
     display: flex;
     justify-content:center;
     flex-wrap: wrap;
-    animation-name: entrada;
-    animation-duration: 5s;
-    animation-timing-function: ease-in;
+    animation-name: animation;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
 }
 
-@keyframes entrada {
-    
-    from{
-        bottom: 0%;
+@keyframes animation {
+    from {
+        position: relative;
+        bottom: -30px;
+        opacity: 0;
     }
-    to{
-        top: 80%;
+
+    to {
+        position: relative;
+        bottom: 0;
+        opacity: 1;
     }
 }
 
